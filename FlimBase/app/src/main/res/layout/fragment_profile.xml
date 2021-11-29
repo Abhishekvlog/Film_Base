@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".view.ProfileFragment">
+
+    <TextView
+        android:id="@+id/account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account setting"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:id="@+id/icon_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/account"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="22dp"
+        android:src="@drawable/ic_account" />
+
+    <TextView
+        android:id="@+id/tx_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Account"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/account"
+        android:layout_toRightOf="@+id/icon_account"
+        android:layout_marginTop="25dp"/>
+    <View
+        android:id="@+id/tv_line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C4C4C4"
+        android:layout_below="@+id/icon_account"/>
+
+    <ImageView
+        android:id="@+id/icon_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_line1"
+        android:src="@drawable/ic_notifications"
+        android:layout_margin="22dp"/>
+
+    <TextView
+        android:id="@+id/tx_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_line1"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/icon_notification"
+        android:text="Notifications"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <View
+        android:id="@+id/tv_line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C4C4C4"
+        android:layout_below="@+id/icon_notification"/>
+
+    <ImageView
+        android:id="@+id/icon_privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_line2"
+        android:src="@drawable/ic_privacy"
+        android:layout_margin="22dp"/>
+    <TextView
+        android:id="@+id/tx_privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Privacy Policy"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_below="@+id/tv_line2"
+        android:layout_toRightOf="@+id/icon_privacy"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:id="@+id/tv_line3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C4C4C4"
+        android:layout_below="@+id/icon_privacy"/>
+
+    <ImageView
+        android:id="@+id/icon_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_line3"
+        android:src="@drawable/ic_settings"
+        android:layout_margin="22dp"/>
+    <TextView
+        android:id="@+id/tx_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings &amp; Preferences"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_below="@+id/tv_line3"
+        android:layout_toRightOf="@+id/icon_privacy"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:id="@+id/tv_line4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C4C4C4"
+        android:layout_below="@+id/icon_setting"/>
+    <ImageView
+        android:id="@+id/icon_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_line4"
+        android:src="@drawable/ic_terms"
+        android:layout_margin="22dp"/>
+    <TextView
+        android:id="@+id/tx_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms &amp; Conditions"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_below="@+id/tv_line4"
+        android:layout_toRightOf="@+id/icon_privacy"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:id="@+id/tv_line5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C4C4C4"
+        android:layout_below="@+id/icon_terms"/>
+
+    <ImageView
+        android:id="@+id/icon_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_line5"
+        android:src="@drawable/ic_help"
+        android:layout_margin="22dp"/>
+    <TextView
+        android:id="@+id/tx_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help &amp; FAQs"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_below="@+id/tv_line5"
+        android:layout_toRightOf="@+id/icon_privacy"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:id="@+id/tv_line6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C4C4C4"
+        android:layout_below="@+id/icon_help"/>
+
+    <ImageView
+        android:id="@+id/icon_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_line6"
+        android:src="@drawable/ic_contact"
+        android:layout_margin="22dp"/>
+    <TextView
+        android:id="@+id/tx_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_below="@+id/tv_line6"
+        android:layout_toRightOf="@+id/icon_privacy"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:id="@+id/tv_line7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C4C4C4"
+        android:layout_below="@+id/icon_contact"/>
+
+    <ImageView
+        android:id="@+id/icon_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_line7"
+        android:src="@drawable/ic_login"
+        android:layout_margin="22dp"/>
+    <TextView
+        android:id="@+id/tx_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_below="@+id/tv_line7"
+        android:layout_toRightOf="@+id/icon_signIn"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+
+
+
+</RelativeLayout>
